@@ -36,7 +36,8 @@ button {
     align-items: center;
     justify-content: space-around;
     padding: 100px;
-    height: 100vh;
+    height: 80vh;
+    margin-top: -60px;
 }
 
 body {
@@ -68,10 +69,12 @@ body {
 }
 .titulo {
     color: white;
+    font-size: 30px;
 
 }
 .paragrafo {
     color: white;
+    font-size: 20px;
 }
 
 .link-zap {
@@ -183,11 +186,10 @@ textarea {
     background-color: white;
     display: flex;
     position: fixed;
-    top: 70px;
-    left: 50px;
-    width: 80vw;
+    top: 120px;
+    left: 250px;
+    width: 40vw;
     border-radius: 30px;
-    gap: 10px;
     transition: left 1s ease-in-out;
     visibility: hidden;
 }
